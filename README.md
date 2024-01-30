@@ -2,6 +2,9 @@
 
 Implementation of an auction site as part of the CS50W course. Django is used for the backend, including models for AuctionListing, Bid, and Comment. Frontend modifications are focused on enhancing the user interface.
 
+## Demo
+[]
+
 ## Features
 
 - **Create Listing:** Users can create new listings with a title, description, starting bid, optional image URL, and category.
@@ -14,16 +17,12 @@ Implementation of an auction site as part of the CS50W course. Django is used fo
 ## Usage
 
 1. Clone the repository: `git clone https://github.com/your-username/auction-site.git`
-2. Set up a virtual environment: `python -m venv venv`
-3. Activate the virtual environment:
-    - On Windows: `venv\Scripts\activate`
-    - On macOS/Linux: `source venv/bin/activate`
-4. Install dependencies: `pip install -r requirements.txt`
-5. Run migrations: `python manage.py migrate`
-6. Create a superuser for admin access: `python manage.py createsuperuser`
-7. Start the development server: `python manage.py runserver`
-8. Access the site at `http://127.0.0.1:8000/` and the admin interface at `http://127.0.0.1:8000/admin/`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run migrations: `python manage.py migrate`
+4. Use superuser `admin` with password `admin`
+5. Start the development server: `python manage.py runserver`
+6. Access the site at `http://127.0.0.1:8000/` and the admin interface at `http://127.0.0.1:8000/admin/`
 
 ## Credits
 
-- CS50W OpenWare
+- [CS50W OpenWare](https://cs50.harvard.edu/web/2020/projects/2/commerce/)
