@@ -1,6 +1,6 @@
 # Auction Site Project
 
-Base template by 
+Base template by distribution code from [CS50W's Commerce Project](https://cs50.harvard.edu/web/2020/projects/2/commerce/).
 
 Implementation of an auction site as part of the CS50W course. Django is used for the backend, including models for AuctionListing, Bid, and Comment. Frontend modifications are focused on enhancing the user interface.
 
