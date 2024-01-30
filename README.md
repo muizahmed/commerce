@@ -1,9 +1,12 @@
 # Auction Site Project
 
+Base template by 
+
 Implementation of an auction site as part of the CS50W course. Django is used for the backend, including models for AuctionListing, Bid, and Comment. Frontend modifications are focused on enhancing the user interface.
 
 ## Demo
-[]
+
+[Watch Demo on YouTube](https://www.youtube.com/watch?v=VTiHXBimGqk)
 
 ## Features
 
