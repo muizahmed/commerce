@@ -1,0 +1,20 @@
+{% extends 'auctions/layout.html' %}
+{% load custom_filters %}
+
+{% block body %}
+  <section id="listings-view">
+    <h2>{{ title }}</h2>
+
+    <div class="listings-grid">
+      {% for listing in listings %}
+        <a href="{% url 'listing' listing.id listing.title|replace_chars %}">
+          <div class="listing-prvw">
+            <img class="listing-img mb-3" src="{{ listing.image }}" />
+            <span class="mb-3">{{ listing.title }}</span>
+            <span class="start-bid">{{ listing.start_bid|usd }}</span>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}

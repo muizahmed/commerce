@@ -1,0 +1,14 @@
+﻿{% extends 'auctions/layout.html' %}
+{% load custom_filters %}
+
+{% block body %}
+  <ul>
+    {% for category in categories %}
+      {% if category.0 %}
+      <a href="{% url 'category-view' category.1|replace_chars %}">
+        <li>{{ category.1 }}</li>
+    </a>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endblock %}
