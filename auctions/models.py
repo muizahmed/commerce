@@ -39,7 +39,7 @@ class Listing(models.Model):
         ('MS', 'Miscellaneous')
     )
     category = models.CharField(
-        max_length=64, choices=CATEGORIES_CHOICES, default=CATEGORIES_CHOICES[0], blank=True)
+        max_length=64, choices=CATEGORIES_CHOICES, default='', blank=True)
     active = models.BooleanField(default=True)
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="listings")
