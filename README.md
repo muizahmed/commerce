@@ -19,10 +19,10 @@ Implementation of an auction site as part of the CS50W course. Django is used fo
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/your-username/auction-site.git`
+1. Clone the repository: `git clone https://github.com/muizahmed/commerce.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run migrations: `python manage.py migrate`
-4. Use superuser `admin` with password `admin`
+4. Use `createsuperuser` to create admin user
 5. Start the development server: `python manage.py runserver`
 6. Access the site at `http://127.0.0.1:8000/` and the admin interface at `http://127.0.0.1:8000/admin/`
 
